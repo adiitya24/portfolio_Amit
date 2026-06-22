@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Amit Choudhari | Advanced Manufacturing, DfAM & Materials Engineering</title>
+<meta name="description" content="Portfolio of Amit Choudhari: advanced manufacturing engineer connecting DfAM, metal AM, CAM/CNC, CAM/CNC workflows, and materials validation from design intent to validated manufacturing.">
+<style>
+:root{--bg:#080d18;--bg2:#0d1423;--card:rgba(255,255,255,.065);--card2:rgba(255,255,255,.04);--border:rgba(203,213,225,.14);--text:#f8fafc;--muted:#94a3b8;--sub:#cbd5e1;--gold:#c9a84c;--gold2:#f3d68b;--cyan:#22d3ee;--blue:#3b82f6;--violet:#8b5cf6;--green:#34d399;--shadow:0 26px 90px rgba(0,0,0,.35);--max:1240px;--r:24px;--font:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:var(--font);color:var(--text);line-height:1.65;background:radial-gradient(circle at 8% 8%,rgba(34,211,238,.12),transparent 26%),radial-gradient(circle at 88% 12%,rgba(201,168,76,.11),transparent 24%),linear-gradient(135deg,var(--bg),#0a1020 36%,#0e1626 100%);background-attachment:fixed;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:linear-gradient(rgba(203,213,225,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(203,213,225,.035) 1px,transparent 1px);background-size:68px 68px;mask-image:radial-gradient(circle at 50% 20%,black,transparent 82%)}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}.container{width:min(var(--max),calc(100% - 36px));margin:auto}section{padding:94px 0;scroll-margin-top:88px}.scroll-progress{position:fixed;top:0;left:0;height:4px;width:0;z-index:5000;background:linear-gradient(90deg,var(--gold),var(--blue),var(--cyan))}
+.navbar{position:sticky;top:0;z-index:1200;background:rgba(8,13,24,.78);border-bottom:1px solid rgba(203,213,225,.08);backdrop-filter:blur(18px)}.nav-inner{width:min(var(--max),calc(100% - 36px));margin:auto;min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:18px}.nav-brand{display:flex;align-items:center;gap:12px;font-weight:950}.nav-logo{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),var(--blue),var(--cyan));color:#07111e;font-weight:950}.nav-links{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}.nav-links a{padding:9px 10px;border-radius:999px;color:var(--muted);font-weight:750;font-size:.9rem;transition:.22s}.nav-links a:hover,.nav-links a.active{background:rgba(255,255,255,.075);color:var(--text)}.menu-toggle{display:none;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:12px;padding:10px 12px}
+.glass-card{background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.045));border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);backdrop-filter:blur(18px);position:relative;overflow:hidden}.glass-card:before{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,.55),transparent)}
+.kicker{display:inline-flex;align-items:center;gap:10px;margin-bottom:14px;color:var(--gold2);font-weight:900;letter-spacing:.16em;text-transform:uppercase;font-size:.75rem}.kicker:before{content:"";width:30px;height:2px;background:currentColor}.section-title{margin:0 0 14px;font-size:clamp(2.1rem,4vw,3.65rem);line-height:1.04;letter-spacing:-.055em}.section-subtitle{margin:0;max-width:880px;color:var(--muted);font-size:1.06rem}.section-header{margin-bottom:34px}.tag{display:inline-flex;padding:7px 10px;border-radius:999px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.18);color:var(--sub);font-weight:800;font-size:.78rem}
+.hero{min-height:calc(100vh - 78px);display:grid;align-items:center;padding:74px 0 64px}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:44px;align-items:center}.hero-eyebrow{display:inline-flex;align-items:center;gap:10px;padding:9px 14px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--border);color:var(--gold2);font-weight:850}.hero-dot{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 18px rgba(52,211,153,.75)}h1{margin:22px 0 18px;font-size:clamp(3.15rem,7vw,6.5rem);line-height:.9;letter-spacing:-.09em}.hero-gradient-text{background:linear-gradient(135deg,#fff 8%,var(--gold2) 30%,var(--blue) 65%,var(--cyan) 96%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-subtitle{max-width:760px;font-size:clamp(1.12rem,2.1vw,1.44rem);color:var(--sub);font-weight:630;margin:0 0 16px}.hero-copy{max-width:760px;color:var(--muted);margin:0 0 28px}.btn-row{display:flex;flex-wrap:wrap;gap:13px;margin-top:24px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 18px;border-radius:999px;border:1px solid var(--border);background:rgba(255,255,255,.06);font-weight:850;transition:.22s}.btn:hover{transform:translateY(-2px);border-color:rgba(34,211,238,.35)}.btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold2));color:#07111e;border-color:rgba(201,168,76,.45)}.pill-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.pill{padding:9px 12px;border-radius:999px;background:rgba(255,255,255,.055);border:1px solid var(--border);color:var(--sub);font-weight:750;font-size:.88rem}.headshot-card{padding:16px}.headshot-wrap{position:relative;min-height:520px;border-radius:28px;overflow:hidden;background:linear-gradient(135deg,#111827,#172033)}.headshot-wrap img{width:100%;height:100%;min-height:520px;object-fit:cover;object-position:50% 18%}.headshot-overlay{position:absolute;left:0;right:0;bottom:0;padding:18px;background:linear-gradient(180deg,transparent,rgba(8,13,24,.86))}.headshot-overlay h3{margin:0 0 4px}.headshot-overlay p{margin:0;color:var(--muted);font-size:.92rem}.mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.mini-stat{text-align:center;padding:16px 12px;background:rgba(255,255,255,.055);border:1px solid var(--border);border-radius:20px}.mini-stat strong{display:block;font-size:1.35rem;line-height:1}.mini-stat span{display:block;color:var(--muted);font-size:.86rem;margin-top:5px}
+.workflow-strip{padding:42px 0;background:rgba(255,255,255,.025);border-top:1px solid rgba(203,213,225,.06);border-bottom:1px solid rgba(203,213,225,.06)}.flow-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:12px}.flow-card{padding:15px 12px;border-radius:18px;text-align:center;min-height:122px;display:flex;flex-direction:column;justify-content:space-between}.flow-index{width:32px;height:32px;border-radius:10px;display:grid;place-items:center;margin:0 auto 8px;background:rgba(201,168,76,.13);color:var(--gold2);font-weight:900;border:1px solid rgba(201,168,76,.22)}.flow-card strong{display:block;font-size:.94rem}.flow-card span{color:var(--muted);font-size:.78rem;line-height:1.35}
+.two-grid{display:grid;grid-template-columns:.96fr 1.04fr;gap:24px;align-items:start}.content-card{padding:26px}.content-card p{color:var(--muted)}.value-list{display:grid;gap:12px;margin-top:20px}.value-item{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:14px;border-radius:18px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08)}.value-num{width:36px;height:36px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),var(--blue));color:#07111e;font-weight:950}.value-item span{color:var(--muted)}.mission-vision{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}.mv-card{padding:18px}.mv-card h4{margin:0 0 8px;color:var(--gold2)}.mv-card p{margin:0;color:var(--muted);font-size:.92rem}.viz{width:100%;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.10);background:linear-gradient(135deg,rgba(255,255,255,.045),rgba(255,255,255,.025))}.viz svg{width:100%;height:auto;display:block}.dfam-visual-card{padding:18px}
+.grid,.dashboard-grid,.process-grid,.project-grid,.skills-grid,.education-grid,.awards-grid{display:grid;gap:18px}.dashboard-grid{grid-template-columns:repeat(4,1fr)}.stat-card{padding:20px;min-height:170px;display:flex;flex-direction:column;justify-content:space-between}.stat-number{font-size:clamp(2rem,4vw,3.15rem);font-weight:950;line-height:1;background:linear-gradient(135deg,var(--gold2),var(--blue),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}.stat-label{color:var(--muted)}.stat-context{color:var(--sub);font-size:.86rem;margin-top:8px}.chart-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:18px}.chart-card{padding:24px}.chart-card h3{margin:0 0 8px}.chart-card p{margin:0 0 16px;color:var(--muted)}.chart{border-radius:18px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);overflow:hidden}.chart svg{width:100%;height:auto;display:block}
+.project-grid{grid-template-columns:repeat(2,1fr)}.project-card{padding:24px;cursor:pointer;transition:.25s}.project-card:hover{transform:translateY(-6px);border-color:rgba(201,168,76,.35)}.project-num{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold2);font-weight:900}.project-card h3{margin:8px 0 10px;font-size:1.25rem}.project-body{color:var(--muted)}.star-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}.star-item{padding:12px;border-radius:16px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08)}.star-item strong{display:block;color:var(--cyan);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:5px}.star-item span{color:var(--muted);font-size:.86rem}.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.case-study-trigger{margin-top:16px;display:inline-flex;align-items:center;gap:8px;color:var(--gold2);font-weight:900}.evidence-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.evidence-card{min-height:210px;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.035)}.evidence-card img{width:100%;height:145px;object-fit:cover}.evidence-card div{padding:12px}.evidence-card strong{display:block}.evidence-card span{color:var(--muted);font-size:.86rem}
+.process-grid{grid-template-columns:repeat(4,1fr)}.process-card{padding:20px}.process-card h3{margin:16px 0 8px;color:var(--gold2)}.process-card p{color:var(--muted);margin:0;font-size:.92rem}.skills-grid{grid-template-columns:repeat(3,1fr)}.skill-category{padding:22px}.skill-category h3{margin:0 0 14px;color:var(--gold2)}.capability-list{display:grid;gap:10px}.capability-row{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 12px;border-radius:14px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.075)}.level{color:#07111e;background:linear-gradient(135deg,var(--gold2),var(--cyan));padding:4px 8px;border-radius:999px;font-weight:900;font-size:.76rem;white-space:nowrap}.timeline-item{display:grid;grid-template-columns:280px 1fr;gap:24px;padding:24px}.timeline-left{border-right:1px solid rgba(203,213,225,.12);padding-right:20px}.company-badge{display:inline-flex;padding:7px 10px;border-radius:999px;background:rgba(201,168,76,.14);border:1px solid rgba(201,168,76,.25);color:var(--gold2);font-size:.78rem;font-weight:900}.timeline-left h3{margin:14px 0 5px}.org,.date,.institution,.edu-date{color:var(--muted);font-size:.92rem}.timeline-right h4{margin:0 0 12px;color:var(--sub)}.timeline-right ul,.edu-card ul{margin:0;padding-left:18px;color:var(--muted)}.timeline-right li{margin-bottom:8px}.education-grid{grid-template-columns:repeat(3,1fr)}.edu-card{padding:22px}.edu-card h3{margin:0 0 8px}.pub-grid{display:grid;gap:18px}.pub-card{display:grid;grid-template-columns:auto 1fr auto;gap:16px;padding:18px;align-items:start}.pub-num{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(201,168,76,.13);color:var(--gold2);font-weight:900}.pub-card h3{margin:0 0 6px;font-size:1.03rem}.pub-card p{margin:0;color:var(--muted);font-size:.91rem}.pub-date{color:var(--cyan);font-weight:900}.awards-grid{grid-template-columns:repeat(3,1fr)}.award-card{padding:20px}.award-badge{display:inline-flex;padding:6px 9px;border-radius:999px;background:rgba(34,211,238,.10);color:var(--cyan);font-size:.76rem;font-weight:900;margin-bottom:12px}.award-card h3{margin:0 0 8px}.award-org,.award-year,.award-desc{color:var(--muted)}
+.contact-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:24px;align-items:start}.contact-info-card,.contact-form-card{padding:24px}.contact-link{display:flex;gap:14px;align-items:center;padding:14px;border-radius:16px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.075);margin-top:12px;transition:.22s}.contact-link:hover{transform:translateX(4px);border-color:rgba(34,211,238,.25)}.contact-link-icon{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:rgba(201,168,76,.12);color:var(--gold2);font-weight:900}.contact-link-text span{color:var(--muted);display:block;font-size:.82rem}.contact-link-text strong{color:var(--sub)}.form-group{position:relative;margin-bottom:22px}.form-group input,.form-group textarea{width:100%;border:none;outline:none;color:var(--text);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px 14px 12px;font:inherit}.form-group textarea{min-height:140px;resize:vertical}.form-group label{position:absolute;left:14px;top:14px;color:var(--muted);pointer-events:none;transition:.2s}.form-group input:focus+label,.form-group input:not(:placeholder-shown)+label,.form-group textarea:focus+label,.form-group textarea:not(:placeholder-shown)+label{top:4px;font-size:.72rem;color:var(--gold2)}.btn-send{width:100%;border:none;cursor:pointer;padding:14px 18px;border-radius:999px;font-weight:900;color:#07111e;background:linear-gradient(135deg,var(--gold),var(--gold2))}
+.modal-overlay{position:fixed;inset:0;z-index:4000;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(2,6,23,.75);backdrop-filter:blur(14px)}.modal-overlay.open{display:flex}.modal-wrapper{width:min(1180px,100%);max-height:92vh;overflow:auto;border-radius:30px;background:linear-gradient(180deg,rgba(15,23,42,.98),rgba(11,18,32,.98));border:1px solid rgba(201,168,76,.26);box-shadow:0 40px 160px rgba(0,0,0,.62);position:relative;animation:modalIn .24s ease both}@keyframes modalIn{from{opacity:0;transform:scale(.96) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}.modal-close{position:sticky;top:16px;margin-left:auto;right:16px;display:block;width:42px;height:42px;border-radius:14px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);color:var(--text);font-size:26px;cursor:pointer;z-index:1}.modal-content{padding:28px}.modal-kicker{color:var(--gold2);text-transform:uppercase;letter-spacing:.16em;font-weight:900;font-size:.76rem}.modal-title{margin:8px 0 10px;font-size:clamp(1.8rem,4vw,3rem);line-height:1.05;letter-spacing:-.045em}.modal-subtitle{color:var(--muted);max-width:860px}.modal-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:22px;margin-top:24px}.modal-sec,.modal-sidebar-card{padding:20px;border-radius:22px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08);margin-bottom:16px}.modal-sec h3,.modal-sidebar-card h3{margin:0 0 10px;color:var(--gold2)}.modal-sec p,.modal-sec li{color:var(--muted)}.modal-metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.modal-metric-card{padding:12px;border-radius:16px;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.16)}.modal-metric-card strong{display:block}.modal-metric-card span{color:var(--muted);font-size:.84rem}.modal-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:12px}.gallery-slot{border-radius:18px;overflow:hidden;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}.gallery-slot img{height:150px;width:100%;object-fit:cover}.gallery-info{padding:12px}.gallery-info h4{margin:0 0 5px}.gallery-info p{margin:0;color:var(--muted);font-size:.84rem}.modal-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}.footer{padding:32px 0 46px;border-top:1px solid rgba(203,213,225,.08);color:var(--muted)}.footer-inner{width:min(var(--max),calc(100% - 36px));margin:0 auto;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.reveal,.reveal-left,.reveal-right{opacity:0;filter:blur(7px);transition:opacity .85s ease,transform .85s ease,filter .85s ease}.reveal{transform:translateY(28px)}.reveal-left{transform:translateX(-28px)}.reveal-right{transform:translateX(28px)}.visible{opacity:1;transform:translate(0,0);filter:blur(0)}.cool-flow{stroke-dasharray:18 14;animation:coolantFlow 2.6s linear infinite}@keyframes coolantFlow{from{stroke-dashoffset:220}to{stroke-dashoffset:0}}@keyframes recoater{0%,100%{transform:translateX(-55px)}50%{transform:translateX(65px)}}@keyframes headMove{0%,100%{transform:translateX(-58px)}50%{transform:translateX(62px)}}@keyframes dropPulse{0%,70%,100%{opacity:0;transform:translateY(0)}30%{opacity:1;transform:translateY(16px)}50%{opacity:0;transform:translateY(28px)}}@keyframes scanLaser{0%{transform:translate(0,0)}24%{transform:translate(110px,0)}25%{transform:translate(110px,24px)}49%{transform:translate(0,24px)}50%{transform:translate(0,48px)}74%{transform:translate(110px,48px)}75%{transform:translate(110px,72px)}100%{transform:translate(0,72px)}}@keyframes dedFeed{0%,100%{transform:translateY(-8px)}50%{transform:translateY(9px)}}@keyframes sprayPulse{0%,100%{opacity:.38;transform:scale(.95)}50%{opacity:1;transform:scale(1.05)}}@keyframes fdmMove{0%,100%{transform:translateX(-70px)}50%{transform:translateX(70px)}}@keyframes growBar{from{transform:scaleY(.15)}to{transform:scaleY(1)}}.bj-recoater{animation:recoater 4s ease-in-out infinite}.bj-head{animation:headMove 4s ease-in-out infinite}.drop1{animation:dropPulse 1.6s ease-in-out infinite}.drop2{animation:dropPulse 1.6s ease-in-out .2s infinite}.drop3{animation:dropPulse 1.6s ease-in-out .4s infinite}.laser{animation:scanLaser 5s linear infinite}.ded-wire{animation:dedFeed 2s ease-in-out infinite}.ded-spray{animation:sprayPulse 1.4s ease-in-out infinite;transform-origin:318px 260px}.fdm-head{animation:fdmMove 4s ease-in-out infinite}.growbar{transform-origin:bottom;animation:growBar 1.2s ease-out both}
+@media(max-width:1080px){.hero-grid,.two-grid,.contact-grid,.modal-grid{grid-template-columns:1fr}.flow-grid,.process-grid,.dashboard-grid,.education-grid,.skills-grid,.awards-grid{grid-template-columns:repeat(2,1fr)}.project-grid,.chart-grid{grid-template-columns:1fr}.headshot-wrap,.headshot-wrap img{min-height:560px}}@media(max-width:760px){section{padding:74px 0}.menu-toggle{display:block}.nav-links{position:fixed;top:78px;left:18px;right:18px;display:none;flex-direction:column;align-items:stretch;padding:14px;border-radius:18px;background:rgba(8,13,24,.96);border:1px solid var(--border);box-shadow:var(--shadow)}.nav-links.open{display:flex}.nav-links a{width:100%}.flow-grid,.process-grid,.dashboard-grid,.education-grid,.skills-grid,.awards-grid,.mission-vision,.star-grid,.evidence-strip,.modal-gallery,.modal-metrics{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr}.timeline-left{border-right:0;border-bottom:1px solid rgba(203,213,225,.12);padding-right:0;padding-bottom:14px}.pub-card{grid-template-columns:1fr}.headshot-wrap,.headshot-wrap img{min-height:420px}h1{font-size:clamp(2.8rem,14vw,4rem)}}
+
+.dfam-case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+.dfam-case-card{padding:22px;transition:.25s ease}
+.dfam-case-card:hover{transform:translateY(-6px);border-color:rgba(201,168,76,.35)}
+.dfam-case-card img{width:100%;height:190px;object-fit:cover;border-radius:18px;border:1px solid rgba(255,255,255,.10);margin-bottom:14px}
+.dfam-case-card h3{margin:0 0 10px;color:var(--gold2)}
+.dfam-case-card p{color:var(--muted);margin:0 0 12px}
+.dfam-value{display:inline-flex;padding:7px 10px;border-radius:999px;background:rgba(34,211,238,.10);border:1px solid rgba(34,211,238,.18);color:var(--cyan);font-weight:900;font-size:.78rem;margin-bottom:12px}
+.paper-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+.paper-card{padding:14px;border-radius:16px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08)}
+.paper-card strong{display:block;color:var(--gold2);margin-bottom:5px}
+.paper-card span{display:block;color:var(--muted);font-size:.86rem}
+@media(max-width:1080px){.dfam-case-grid,.paper-grid{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress"></div>
+<nav class="navbar"><div class="nav-inner"><a class="nav-brand" href="#home"><span class="nav-logo">AC</span><span>Amit Choudhari</span></a><button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">Menu</button><div class="nav-links" id="navLinks"><a href="#home">Home</a><a href="#workflow">Workflow</a><a href="#dfam">DfAM</a><a href="#dfam-cases">DfAM Cases</a><a href="#projects">Projects</a><a href="#processes">Processes</a><a href="#experience">Experience</a><a href="#publications">Publications</a><a href="#contact">Contact</a></div></div></nav>
+<main>
+<section class="hero" id="home"><div class="container hero-grid"><div class="reveal-left"><div class="hero-eyebrow"><span class="hero-dot"></span> Advanced Manufacturing · DfAM · Materials Validation</div><h1><span class="hero-gradient-text">From design intent to validated manufacturing.</span></h1><p class="hero-subtitle">I connect DfAM, metal additive manufacturing, CAM/CNC workflows, materials characterization, and CAM/CNC workflows into one production-aware engineering workflow.</p><p class="hero-copy">My work focuses on designing manufacturable parts, selecting the right AM route, controlling post-processing, validating microstructure and properties, and translating complex manufacturing concepts into hands-on training for students and industry professionals.</p><div class="btn-row"><a class="btn btn-primary" href="#workflow">See Manufacturing Workflow →</a><a class="btn" href="#projects">View Case Studies</a><a class="btn" href="resume/Amit_Choudhari_Resume.pdf" download>Download Resume</a><a class="btn" href="https://scholar.google.com/citations?hl=en&user=RLpNL1EAAAAJ" target="_blank" rel="noopener">Google Scholar</a></div><div class="pill-row"><span class="pill">DfAM</span><span class="pill">Binder Jetting</span><span class="pill">L-PBF</span><span class="pill">DED</span><span class="pill">CAM/CNC</span><span class="pill">Fusion + Mastercam</span><span class="pill">CNC Manufacturing Training</span><span class="pill">SEM · EBSD · XRD</span></div></div><div class="reveal-right"><div class="glass-card headshot-card"><div class="headshot-wrap"><img src="assets/amit-headshot.jpg" alt="Amit Choudhari - Advanced Manufacturing and Materials Engineer"><div class="headshot-overlay"><h3>Amit Choudhari</h3><p>Mechanical Engineer · Additive Manufacturing · Materials Science</p></div></div></div><div class="mini-stats"><div class="mini-stat"><strong>35</strong><span>Publications</span></div><div class="mini-stat"><strong>415+</strong><span>Citations</span></div><div class="mini-stat"><strong>300+</strong><span>Trained Users</span></div></div></div></div></section>
+<section class="workflow-strip" id="workflow"><div class="container"><div class="section-header reveal"><div class="kicker">Signature Workflow</div><h2 class="section-title">Advanced manufacturing is a chain, not a single process.</h2><p class="section-subtitle">This portfolio is organized around the workflow I want to be known for: design the part, choose the process, print or machine it, validate the material, and train others to repeat the workflow correctly.</p></div><div class="flow-grid"><div class="glass-card flow-card reveal"><div class="flow-index">01</div><strong>DfAM</strong><span>Function, cooling, geometry, manufacturability</span></div><div class="glass-card flow-card reveal"><div class="flow-index">02</div><strong>Process Selection</strong><span>BJ, L-PBF, DED, FDM</span></div><div class="glass-card flow-card reveal"><div class="flow-index">03</div><strong>Printing</strong><span>Setup, orientation, powder, supports</span></div><div class="glass-card flow-card reveal"><div class="flow-index">04</div><strong>Post-Processing</strong><span>Sintering, HIP, heat treatment</span></div><div class="glass-card flow-card reveal"><div class="flow-index">05</div><strong>CAM/CNC</strong><span>Fusion, Mastercam, toolpaths</span></div><div class="glass-card flow-card reveal"><div class="flow-index">06</div><strong>Characterization</strong><span>SEM, EBSD, XRD, wear</span></div><div class="glass-card flow-card reveal"><div class="flow-index">07</div><strong>Validation</strong><span>Data to process windows</span></div><div class="glass-card flow-card reveal"><div class="flow-index">08</div><strong>Training</strong><span>ACE, CNC/CAM</span></div></div></div></section>
+<section id="dfam"><div class="container"><div class="section-header reveal"><div class="kicker">First Principle: DfAM</div><h2 class="section-title">Design for Additive Manufacturing comes first.</h2>
+  <p class="section-subtitle">DfAM is not simply running a normal part on a 3D printer. It means designing around the strengths and limits of layer-by-layer manufacturing, post-processing, inspection, and final function.</p></div><div class="two-grid"><div class="glass-card content-card reveal-left"><h3>Professional Summary</h3><p>I am Amit Choudhari, a Mechanical Engineer and Materials Engineer specializing in additive manufacturing, DfAM, metal AM process development, and process–microstructure–property relationships. My PhD work focused on additive manufacturing of tool steels, especially AISI M2, using Binder Jetting and post-processing routes such as sintering and HIP.</p><p>My current ACE workforce development work adds a production-facing layer: Fusion, Mastercam, CAM toolpath generation, CNC machining workflows, and hands-on CNC/CAM training delivery. This makes my profile strongest at the interface of <span style="color:var(--gold2)">AM + materials + CAM/CNC + automation training</span>.</p><div class="value-list"><div class="value-item"><span class="value-num">1</span><span><strong>Design:</strong> DfAM, conformal cooling, part orientation, machining allowance, process-aware geometry.</span></div><div class="value-item"><span class="value-num">2</span><span><strong>Process:</strong> Binder Jetting, L-PBF, DED, FDM, sintering, HIP, heat treatment.</span></div><div class="value-item"><span class="value-num">3</span><span><strong>Material:</strong> Microstructure, carbide evolution, density, hardness, wear, phase analysis.</span></div><div class="value-item"><span class="value-num">4</span><span><strong>Manufacturing:</strong> CAM/CNC workflows, Fusion, Mastercam, ACE training, manufacturing process training.</span></div></div><div class="mission-vision"><div class="glass-card mv-card"><h4>Mission</h4><p>Connect AM, materials science, and practical manufacturing education so advanced designs become reliable, manufacturable engineering solutions.</p></div><div class="glass-card mv-card"><h4>Vision</h4><p>Support production-aware workflows from design intent through printing, post-processing, machining, inspection, and workforce training.</p></div></div></div><div class="glass-card dfam-visual-card reveal-right"><div class="viz"><svg viewBox="0 0 640 400" role="img" aria-label="Animated DfAM cutting tool with conformal cooling channels"><defs><linearGradient id="toolBodyGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2a3448"/><stop offset="55%" stop-color="#1a2335"/><stop offset="100%" stop-color="#0f172a"/></linearGradient><linearGradient id="fluteGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#64748b"/><stop offset="100%" stop-color="#1e293b"/></linearGradient><linearGradient id="coolantGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a5f3fc"/><stop offset="100%" stop-color="#22d3ee"/></linearGradient><linearGradient id="heatTipGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#c9a84c"/><stop offset="100%" stop-color="#ef4444"/></linearGradient><filter id="toolShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.28"/></filter><marker id="calloutArrowDfam" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/></marker><path id="coolantPathLeftDfam" d="M221 98 C210 140 207 196 211 248 C213 278 218 301 225 322"/><path id="coolantPathRightDfam" d="M259 98 C270 140 273 196 269 248 C267 278 262 301 255 322"/></defs><rect width="640" height="400" fill="transparent"/>
+    <text x="38" y="42" fill="var(--text)" font-size="20" font-weight="800">DfAM: AM cutting tool with internal conformal cooling</text><text x="38" y="64" fill="var(--text)" font-size="13" font-weight="600">Longitudinal cutaway view showing internal coolant channels near the cutting zone</text>
+    <g transform="translate(0,42)"><ellipse cx="240" cy="350" rx="110" ry="16" fill="rgba(15,23,42,.22)"/><g filter="url(#toolShadow)"><path d="M180 32 H300 V118 C300 140 309 160 324 177 V276 C324 294 316 310 301 323 L279 342 H201 L179 323 C164 310 156 294 156 276 V177 C171 160 180 140 180 118 Z" fill="url(#toolBodyGrad)" stroke="var(--border)" stroke-width="3"/><rect x="196" y="82" width="88" height="220" rx="30" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)" stroke-width="1.5"/><path d="M184 166 C220 183 220 225 187 250" fill="none" stroke="url(#fluteGrad)" stroke-width="12" stroke-linecap="round" opacity=".95"/><path d="M296 166 C260 183 260 225 293 250" fill="none" stroke="url(#fluteGrad)" stroke-width="12" stroke-linecap="round" opacity=".95"/><path d="M201 342 L240 312 L279 342" fill="url(#fluteGrad)" stroke="var(--border)" stroke-width="3"/><use href="#coolantPathLeftDfam" fill="none" stroke="#06111f" stroke-width="13" stroke-linecap="round" opacity=".48"/><use href="#coolantPathRightDfam" fill="none" stroke="#06111f" stroke-width="13" stroke-linecap="round" opacity=".48"/><use href="#coolantPathLeftDfam" fill="none" stroke="url(#coolantGrad)" stroke-width="7" stroke-linecap="round" class="cool-flow"/><use href="#coolantPathRightDfam" fill="none" stroke="url(#coolantGrad)" stroke-width="7" stroke-linecap="round" class="cool-flow"/><circle cx="226" cy="324" r="6" fill="#a5f3fc"/><circle cx="254" cy="324" r="6" fill="#a5f3fc"/><circle cx="226" cy="324" r="16" fill="#22d3ee" opacity=".16"/><circle cx="254" cy="324" r="16" fill="#22d3ee" opacity=".16"/><ellipse cx="240" cy="335" rx="50" ry="18" fill="url(#heatTipGrad)" opacity=".18"/></g><circle r="4.2" fill="#e0faff"><animateMotion dur="2.6s" repeatCount="indefinite" rotate="auto"><mpath href="#coolantPathLeftDfam"/></animateMotion></circle><circle r="4.2" fill="#e0faff"><animateMotion dur="2.6s" begin="1.3s" repeatCount="indefinite" rotate="auto"><mpath href="#coolantPathLeftDfam"/></animateMotion></circle><circle r="4.2" fill="#e0faff"><animateMotion dur="2.6s" begin="0.4s" repeatCount="indefinite" rotate="auto"><mpath href="#coolantPathRightDfam"/></animateMotion></circle><circle r="4.2" fill="#e0faff"><animateMotion dur="2.6s" begin="1.7s" repeatCount="indefinite" rotate="auto"><mpath href="#coolantPathRightDfam"/></animateMotion></circle><line x1="300" y1="90" x2="420" y2="72" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#calloutArrowDfam)"/><text x="430" y="76" fill="var(--text)" font-size="14" font-weight="700">shank / tool body</text><line x1="264" y1="170" x2="420" y2="160" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#calloutArrowDfam)"/><text x="430" y="164" fill="var(--text)" font-size="14" font-weight="700">internal coolant channels</text><line x1="257" y1="322" x2="420" y2="286" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#calloutArrowDfam)"/><text x="430" y="290" fill="var(--text)" font-size="14" font-weight="700">coolant exits near cutting zone</text></g></svg></div></div></div></div></section>
+
+
+<section id="dfam-cases" style="background:var(--bg2);">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="kicker">DfAM Case Studies</div>
+      <h2 class="section-title">DfAM: Designing function into the part.</h2>
+      <p class="section-subtitle">My DfAM work focuses on adding internal functionality that is difficult to create by conventional machining alone: cooling channels, lattice-based damping concepts, and custom tooling for implant-related material processing.</p>
+    </div>
+
+    <div class="dfam-case-grid">
+      <article class="glass-card dfam-case-card reveal">
+        <img src="assets/dfam-conformal-cooling.jpg" alt="Conformal cooling cutting tool placeholder">
+        <span class="dfam-value">Thermal management</span>
+        <h3>Conformal Cooling Cutting Tool</h3>
+        <p><strong>Objective:</strong> Design a cutting tool with internal conformal cooling channels to improve coolant delivery near the cutting zone.</p>
+        <p><strong>DfAM value:</strong> Uses AM-enabled internal geometry to route channels closer to the functional region instead of relying only on straight drilled holes or external coolant.</p>
+        <div class="tag-row"><span class="tag">Conformal cooling</span><span class="tag">Tooling</span><span class="tag">DfAM</span></div>
+      </article>
+
+      <article class="glass-card dfam-case-card reveal">
+        <img src="assets/dfam-self-damping.jpg" alt="Self damping lattice cutting tool placeholder">
+        <span class="dfam-value">Dynamic performance</span>
+        <h3>Self-Damping Lattice Cutting Tool Concept</h3>
+        <p><strong>Objective:</strong> Develop an end mill concept with a lattice or porous region in the shank that can be filled with a high-density damping medium.</p>
+        <p><strong>DfAM value:</strong> Uses internal architecture to create a spring–mass–damper concept where the metal body acts as the spring and the filled lattice region provides damping. This is presented as an active concept under development.</p>
+        <div class="tag-row"><span class="tag">Lattice</span><span class="tag">Damping</span><span class="tag">Machining</span></div>
+      </article>
+
+      <article class="glass-card dfam-case-card reveal">
+        <img src="assets/dfam-dental-mold.jpg" alt="Custom dental implant mold placeholder">
+        <span class="dfam-value">Custom tooling</span>
+        <h3>3D Printed Custom Molds for Dental Implant Processing</h3>
+        <p><strong>Objective:</strong> Design and print custom molds for implant-related material processing using PEEK + AMP powder.</p>
+        <p><strong>DfAM value:</strong> Uses AM as a rapid tooling method to create custom mold cavities for compression or heat-assisted compression workflows. The printed mold acts as tooling, not the final implant.</p>
+        <div class="tag-row"><span class="tag">Rapid tooling</span><span class="tag">PEEK + AMP</span><span class="tag">Custom mold</span></div>
+      </article>   
+    </div>
+  </div>
+</section>
+
+<section id="numbers" style="background:var(--bg2)"><div class="container"><div class="section-header reveal"><div class="kicker">Numbers & Evidence</div><h2 class="section-title">Technical credibility with context.</h2><p class="section-subtitle">Each number is tied to an engineering capability instead of standing alone as decoration.</p></div><div class="dashboard-grid"><div class="glass-card stat-card reveal"><div><span class="tag">Experience</span><div class="stat-number" data-count="7">0</div></div><div><div class="stat-label">years across engineering, research, and manufacturing</div><div class="stat-context">Industry design + PhD AM research + workforce training.</div></div></div><div class="glass-card stat-card reveal"><div><span class="tag">Binder Jetting</span><div class="stat-number" data-count="2500">0</div></div><div><div class="stat-label">hours on ExOne Innovent+ workflows</div><div class="stat-context">Build setup, powder handling, parameter development, sintering/HIP.</div></div></div><div class="glass-card stat-card reveal"><div><span class="tag">L-PBF</span><div class="stat-number" data-count="1000">0</div></div><div><div class="stat-label">hours on TruPrint 1000 workflows</div><div class="stat-context">Build preparation, troubleshooting, validation.</div></div></div><div class="glass-card stat-card reveal"><div><span class="tag">Training</span><div class="stat-number" data-count="300">0</div></div><div><div class="stat-label">students and professionals trained</div><div class="stat-context">AM safety, CAM/CNC training through ACE.</div></div></div><div class="glass-card stat-card reveal"><div><span class="tag">Research</span><div class="stat-number" data-count="35">0</div></div><div><div class="stat-label">publications / technical outputs</div><div class="stat-context">AM steels, wear, coatings, process development.</div></div></div><div class="glass-card stat-card reveal"><div><span class="tag">Impact</span><div class="stat-number" data-count="415">0</div></div><div><div class="stat-label">citations</div><div class="stat-context">Research visibility across AM and materials engineering.</div></div></div><div class="glass-card stat-card reveal"><div><span class="tag">M2 Steel</span><div class="stat-number" data-count="99">0</div></div><div><div class="stat-label">%+ density after optimized processing</div><div class="stat-context">Binder Jetting + sintering + HIP.</div></div></div><div class="glass-card stat-card reveal"><div><span class="tag">Hardness</span><div class="stat-number" data-count="970">0</div></div><div><div class="stat-label">HV-level representative peak hardness</div><div class="stat-context">Reported carefully as optimized M2 conditions.</div></div></div></div></div></section>
+
+
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="kicker">Featured Case Studies</div>
+      <h2 class="section-title">Three engineering case studies with the strongest recruiter value.</h2>
+      <p class="section-subtitle">This portfolio keeps the project section focused on three detailed case studies: M2 tool steel AM process development, oxidation/decarburization control, and machining-force analysis. Each card opens a detailed popup.</p>
+    </div>
+
+    <div class="project-grid">
+      <article class="glass-card project-card reveal" id="projectM2Card">
+        <div class="project-num">Case Study 01</div>
+        <h3>AISI M2 Tool Steel Across Metal AM: Process Development, Defect Mitigation, and HIP Validation</h3>
+        <p class="project-body">Developed process parameters for AISI M2 high-speed tool steel across Binder Jetting, L-PBF, and DED, with deep Binder Jetting work focused on defect root-cause analysis, mitigation, sintering/HIP densification, and performance validation.</p>
+        <div class="star-grid">
+          <div class="star-item"><strong>Situation</strong><span>M2 tool steel is valuable for tooling but had limited published Binder Jetting guidance and difficult AM processability.</span></div>
+          <div class="star-item"><strong>Task</strong><span>Develop print parameters, understand defects, apply HIP/post-processing, and validate microstructure and properties.</span></div>
+          <div class="star-item"><strong>Action</strong><span>Used BJ, L-PBF, DED, sintering/HIP, root-cause analysis, SEM/EDS, EBSD, XRD, hardness, compression, and tribology.</span></div>
+          <div class="star-item"><strong>Result</strong><span>Built a transferable AM process-development framework supported by published M2 tool-steel research.</span></div>
+        </div>
+        <div class="evidence-strip">
+          <div class="evidence-card"><img src="assets/m2-defect-photos.png" alt="M2 defect photo collage"><div><strong>Defect evidence</strong><span>Photo collage of representative Binder Jetting defects</span></div></div>
+          <div class="evidence-card"><img src="assets/m2-hip-workflow.jpg" alt="M2 HIP workflow"><div><strong>Sintering + HIP</strong><span>As-sintered vs HIP densification workflow</span></div></div>
+          <div class="evidence-card"><img src="assets/m2-wear-mechanism.jpg" alt="M2 wear mechanism"><div><strong>Wear mechanism</strong><span>Tribology workflow and wear analysis</span></div></div>
+        </div>
+        <div class="tag-row"><span class="tag">Binder Jetting</span><span class="tag">L-PBF</span><span class="tag">DED</span><span class="tag">Sintering + HIP</span><span class="tag">Defect Mitigation</span></div>
+        <div class="case-study-trigger">View Full Case Study →</div>
+      </article>
+
+      <article class="glass-card project-card reveal" id="projectCoatingsCard">
+        <div class="project-num">Case Study 02</div>
+        <h3>High-Temperature Protective Coatings for Oxidation and Decarburization Control</h3>
+        <p class="project-body">Evaluated protective coatings for reducing oxidation and decarburization during high-temperature steel processing, connecting coating selection to surface integrity, heat-treatment quality, and industrial manufacturing reliability.</p>
+        <div class="star-grid">
+          <div class="star-item"><strong>Situation</strong><span>High-temperature steel processing can cause scale formation, carbon loss, and surface degradation.</span></div>
+          <div class="star-item"><strong>Task</strong><span>Compare coating effectiveness for oxidation and decarburization prevention under furnace-processing conditions.</span></div>
+          <div class="star-item"><strong>Action</strong><span>Compared coated/uncoated samples, evaluated surface condition, and interpreted oxidation/decarburization response.</span></div>
+          <div class="star-item"><strong>Result</strong><span>Connected coating performance to practical heat-treatment reliability and surface-quality control.</span></div>
+        </div>
+        <div class="evidence-strip">
+          <div class="evidence-card"><img src="assets/coating-oxidation.jpg" alt="Oxidation placeholder"><div><strong>Oxidation control</strong><span>Figure slot ready for next update</span></div></div>
+          <div class="evidence-card"><img src="assets/coating-decarb.jpg" alt="Decarburization placeholder"><div><strong>Decarb depth</strong><span>Figure slot ready for next update</span></div></div>
+          <div class="evidence-card"><img src="assets/coating-cross-section.jpg" alt="Coating cross-section placeholder"><div><strong>Cross-section</strong><span>Figure slot ready for next update</span></div></div>
+        </div>
+        <div class="tag-row"><span class="tag">Protective Coatings</span><span class="tag">Oxidation</span><span class="tag">Decarburization</span><span class="tag">Heat Treatment</span><span class="tag">Steel Processing</span></div>
+        <div class="case-study-trigger">View Full Case Study →</div>
+      </article>
+
+      <article class="glass-card project-card reveal" id="projectForcesCard">
+        <div class="project-num">Case Study 03</div>
+        <h3>Cutting Force Analysis of Straight-Flute and Helical-Flute End Mills</h3>
+        <p class="project-body">Analyzed how flute geometry affects machining forces in 6061 and 7075 aluminum, connecting tool design, CAM/CNC thinking, dynamometer data, and machining-performance interpretation.</p>
+        <div class="star-grid">
+          <div class="star-item"><strong>Situation</strong><span>Tool geometry affects force response, vibration tendency, surface finish, and machining stability.</span></div>
+          <div class="star-item"><strong>Task</strong><span>Compare straight-flute and helical-flute end mills using cutting-force measurements.</span></div>
+          <div class="star-item"><strong>Action</strong><span>Analyzed dynamometer force signals and connected the response to flute geometry, material behavior, and process conditions.</span></div>
+          <div class="star-item"><strong>Result</strong><span>Built a manufacturing-focused explanation useful for tool selection, process planning, and CAM/CNC education.</span></div>
+        </div>
+        <div class="evidence-strip">
+          <div class="evidence-card"><img src="assets/force-signal.jpg" alt="Force signal placeholder"><div><strong>Force signal</strong><span>Figure slot ready for next update</span></div></div>
+          <div class="evidence-card"><img src="assets/force-toolpath.jpg" alt="Toolpath placeholder"><div><strong>CAM / toolpath</strong><span>Figure slot ready for next update</span></div></div>
+          <div class="evidence-card"><img src="assets/force-comparison.jpg" alt="Comparison placeholder"><div><strong>Comparison</strong><span>Figure slot ready for next update</span></div></div>
+        </div>
+        <div class="tag-row"><span class="tag">Machining</span><span class="tag">Cutting Force</span><span class="tag">6061 / 7075 Al</span><span class="tag">Tool Geometry</span><span class="tag">CAM/CNC</span></div>
+        <div class="case-study-trigger">View Full Case Study →</div>
+      </article>
+    </div>       
+  </div>
+</section>
+<section id="processes" style="background:var(--bg2)"><div class="container"><div class="section-header reveal"><div class="kicker">Process Capability</div><h2 class="section-title">AM and manufacturing workflows I can explain, operate, and connect.</h2></div><div class="process-grid"><div class="glass-card process-card reveal"><div class="viz"><svg viewBox="0 0 640 400"><rect width="640" height="400" fill="transparent"/><rect x="70" y="92" width="500" height="232" rx="24" fill="rgba(255,255,255,0.02)" stroke="var(--border)" stroke-width="3"/><rect x="120" y="260" width="400" height="28" rx="10" fill="rgba(255,255,255,0.05)"/><g class="bj-recoater"><rect x="170" y="160" width="300" height="18" rx="6" fill="var(--text-muted)" opacity=".3"/><rect x="150" y="150" width="58" height="40" rx="10" fill="var(--gold)" opacity=".8"/></g><g class="bj-head"><rect x="288" y="108" width="64" height="42" rx="10" fill="var(--bg-secondary)" stroke="var(--border)"/><circle cx="304" cy="170" r="5" fill="var(--cyan)" class="drop1"/><circle cx="320" cy="170" r="5" fill="var(--blue)" class="drop2"/><circle cx="336" cy="170" r="5" fill="var(--gold)" class="drop3"/></g><text x="36" y="48" fill="var(--text-secondary)" font-size="20" font-weight="800">Binder Jetting</text></svg></div><h3>Binder Jetting</h3><p>Powder spreading, binder deposition, debinding, sintering, HIP, shrinkage, porosity control, and density improvement.</p></div><div class="glass-card process-card reveal"><div class="viz"><svg viewBox="0 0 640 400"><rect width="640" height="400" fill="transparent"/><rect x="80" y="96" width="480" height="220" rx="24" fill="rgba(255,255,255,0.02)" stroke="var(--border)" stroke-width="3"/><rect x="150" y="170" width="340" height="96" rx="14" fill="rgba(59,130,246,0.1)"/><g class="laser"><line x1="210" y1="118" x2="170" y2="190" stroke="#f59e0b" stroke-width="4"/><circle cx="170" cy="190" r="9" fill="#fbbf24"/><circle cx="170" cy="190" r="22" fill="#fbbf24" opacity=".22"/></g><text x="36" y="48" fill="var(--text-secondary)" font-size="20" font-weight="800">L-PBF / SLM</text></svg></div><h3>Laser Powder Bed Fusion</h3><p>Scan strategy, support design, melt pool awareness, residual stress, and property validation.</p></div><div class="glass-card process-card reveal"><div class="viz"><svg viewBox="0 0 640 400"><rect width="640" height="400" fill="transparent"/><rect x="95" y="286" width="450" height="34" rx="12" fill="rgba(255,255,255,0.05)"/><g class="ded-wire"><line x1="318" y1="70" x2="318" y2="178" stroke="var(--text-muted)" stroke-width="12" stroke-linecap="round"/></g><path d="M292 160 L346 160 L332 232 L306 232 Z" fill="var(--bg-secondary)" stroke="var(--border)"/><g class="ded-spray"><path d="M318 230 L265 286" stroke="#f59e0b" stroke-width="4" opacity=".5"/><path d="M318 230 L318 286" stroke="#f59e0b" stroke-width="4" opacity=".8"/><path d="M318 230 L372 286" stroke="#f59e0b" stroke-width="4" opacity=".5"/></g><path d="M210 286 C260 258,300 258,350 286 C400 314,450 300,500 286" fill="none" stroke="var(--gold)" stroke-width="16" stroke-linecap="round"/><text x="36" y="48" fill="var(--text-secondary)" font-size="20" font-weight="800">DED</text></svg></div><h3>Directed Energy Deposition</h3><p>Feature addition, repair, bead control, heat input, dilution, bonding quality, and microstructure interpretation.</p></div><div class="glass-card process-card reveal"><div class="viz"><svg viewBox="0 0 640 400"><rect width="640" height="400" fill="transparent"/><rect x="100" y="110" width="440" height="210" rx="24" fill="rgba(255,255,255,0.02)" stroke="var(--border)" stroke-width="3"/><g class="fdm-head"><rect x="285" y="130" width="70" height="42" rx="10" fill="var(--bg-secondary)" stroke="var(--border)"/><path d="M300 172 L340 172 L320 210 Z" fill="var(--text-muted)"/></g><rect x="250" y="238" width="140" height="10" rx="5" fill="var(--blue)"/><rect x="238" y="248" width="164" height="10" rx="5" fill="var(--cyan)"/><text x="36" y="48" fill="var(--text-secondary)" font-size="20" font-weight="800">FDM</text></svg></div><h3>Fused Deposition Modeling</h3><p>Rapid prototypes, fixtures, training aids, geometry checks, design communication, and early DfAM validation.</p></div></div></div></section>
+<section id="experience"><div class="container"><div class="section-header reveal"><div class="kicker">Experience</div><h2 class="section-title">Industry design, AM research, national lab exposure, and ACE manufacturing training.</h2></div><div class="grid"><article class="glass-card timeline-item reveal"><div class="timeline-left"><span class="company-badge">ACE</span><h3>Instructor, Workforce Development</h3><div class="org">America’s Cutting Edge</div><div class="date">2026 – Present</div></div><div class="timeline-right"><h4>CAM, CNC Machining, and Manufacturing Training</h4><ul><li>Teach Fusion and Mastercam workflows for CAM programming, CNC machining strategy, setup planning, and toolpath generation.</li><li>Connect CAD geometry, manufacturability, tool selection, workholding, feeds/speeds awareness, and setup documentation to practical machining education.</li><li>Delivering CNC/CAM-focused workforce training while continuing to build broader manufacturing automation awareness.</li></ul></div></article><article class="glass-card timeline-item reveal"><div class="timeline-left"><span class="company-badge">CSU</span><h3>Research Assistant</h3><div class="org">Cleveland State University</div><div class="date">Aug 2021 – 2026</div></div><div class="timeline-right"><h4>Materials and Additive Manufacturing</h4><ul><li>Operated L-PBF, Binder Jetting, and polymer AM platforms through setup, slicing, troubleshooting, and post-processing.</li><li>Resolved low-density defects in binder-jetted M2 tool steel by analyzing pores and implementing optimized sintering + HIP routes.</li><li>Established process–microstructure–property relationships using SEM, EDS, EBSD, XRD, hardness, density, compression, and wear testing.</li></ul></div></article><article class="glass-card timeline-item reveal"><div class="timeline-left"><span class="company-badge">ORNL</span><h3>Research Intern</h3><div class="org">Oak Ridge National Laboratory</div><div class="date">May 2025 – Jul 2025</div></div><div class="timeline-right"><h4>Additive Manufacturing and Metallurgy</h4><ul><li>Supported alloy screening and metallurgical analysis using CALPHAD, Python, and experimental characterization.</li><li>Connected computational predictions with SEM, EBSD, and TEM-based microstructure interpretation.</li></ul></div></article><article class="glass-card timeline-item reveal"><div class="timeline-left"><span class="company-badge">Worley</span><h3>Design Engineer</h3><div class="org">Worley / Jacobs ECR</div><div class="date">Sep 2018 – Jul 2021</div></div><div class="timeline-right"><h4>Mechanical and Piping Systems Design</h4><ul><li>Designed piping networks, pressure vessels, valve assemblies, and fabrication-ready engineering documentation.</li><li>Performed stress, thermal, and material-selection evaluations for industrial projects.</li></ul></div></article></div></div></section>
+<section id="skills" style="background:var(--bg2)"><div class="container"><div class="section-header reveal"><div class="kicker">Capabilities</div><h2 class="section-title">Skills shown as evidence-based capability levels.</h2></div><div class="skills-grid"><div class="glass-card skill-category reveal"><h3>Additive Manufacturing</h3><div class="capability-list"><div class="capability-row"><span>Binder Jetting</span><strong class="level">Process ownership</strong></div><div class="capability-row"><span>L-PBF / SLM</span><strong class="level">Hands-on</strong></div><div class="capability-row"><span>DED</span><strong class="level">Working</strong></div><div class="capability-row"><span>FDM / SLA / PolyJet</span><strong class="level">Training</strong></div></div></div><div class="glass-card skill-category reveal"><h3>Materials Engineering</h3><div class="capability-list"><div class="capability-row"><span>AISI M2 Tool Steel</span><strong class="level">Core depth</strong></div><div class="capability-row"><span>Carbide evolution</span><strong class="level">Research depth</strong></div><div class="capability-row"><span>Sintering / HIP</span><strong class="level">Hands-on</strong></div></div></div><div class="glass-card skill-category reveal"><h3>Characterization</h3><div class="capability-list"><div class="capability-row"><span>SEM / EDS</span><strong class="level">Hands-on</strong></div><div class="capability-row"><span>EBSD</span><strong class="level">Applied</strong></div><div class="capability-row"><span>XRD</span><strong class="level">Applied</strong></div><div class="capability-row"><span>Hardness / Density</span><strong class="level">Hands-on</strong></div></div></div><div class="glass-card skill-category reveal"><h3>CAM/CNC & Robotics</h3><div class="capability-list"><div class="capability-row"><span>Fusion CAM</span><strong class="level">Teaching</strong></div><div class="capability-row"><span>Mastercam</span><strong class="level">Teaching</strong></div><div class="capability-row"><span>CNC machining workflow</span><strong class="level">Training</strong></div><div class="capability-row"><span>Manufacturing automation</span><strong class="level">Upcoming</strong></div></div></div><div class="glass-card skill-category reveal"><h3>Design, Data & Simulation</h3><div class="capability-list"><div class="capability-row"><span>SolidWorks / AutoCAD</span><strong class="level">Hands-on</strong></div><div class="capability-row"><span>Magics / Netfabb / nTop</span><strong class="level">AM workflow</strong></div><div class="capability-row"><span>ANSYS / FEA</span><strong class="level">Working</strong></div><div class="capability-row"><span>Python / MATLAB</span><strong class="level">Applied</strong></div></div></div><div class="glass-card skill-category reveal"><h3>Training & Communication</h3><div class="capability-list"><div class="capability-row"><span>Workforce development</span><strong class="level">Current role</strong></div><div class="capability-row"><span>Lab operations</span><strong class="level">Process owner</strong></div><div class="capability-row"><span>Technical reports</span><strong class="level">Strong</strong></div></div></div></div></div></section>
+<section id="publications"><div class="container"><div class="section-header reveal"><div class="kicker">Research & Publications</div><h2 class="section-title">A publication record connected to practical engineering themes.</h2></div><div class="pub-grid"><article class="glass-card pub-card reveal"><div class="pub-num">01</div><div><h3>Additive manufacturing of AISI M2 tool steel by Binder Jetting</h3><p>Engineering significance: process and thermal route effects on microstructure and mechanical response.</p></div><div class="pub-date">2024</div></article><article class="glass-card pub-card reveal"><div class="pub-num">02</div><div><h3>Image-based quantification of carbides and defect remediation</h3><p>Engineering significance: objective microstructure interpretation and quality control for Binder Jetting AM.</p></div><div class="pub-date">2024</div></article><article class="glass-card pub-card reveal"><div class="pub-num">03</div><div><h3>Wear behavior and tribological response of AM steels</h3><p>Engineering significance: links processing, porosity, carbides, and wear mechanisms.</p></div><div class="pub-date">2025</div></article><article class="glass-card pub-card reveal"><div class="pub-num">04</div><div><h3>High-temperature coatings for oxidation and decarburization control</h3><p>Engineering significance: heat-treatment reliability and surface-integrity preservation.</p></div><div class="pub-date">2025</div></article></div><div class="btn-row reveal" style="margin-top:26px"><a class="btn btn-primary" href="https://scholar.google.com/citations?hl=en&user=RLpNL1EAAAAJ" target="_blank" rel="noopener">Open Google Scholar</a></div></div></section>
+<section id="awards" style="background:var(--bg2)"><div class="container"><div class="section-header reveal"><div class="kicker">Recognition</div><h2 class="section-title">Awards, leadership, and technical contribution.</h2></div><div class="awards-grid"><div class="glass-card award-card reveal"><span class="award-badge">Academic</span><h3>Student of the Year Award</h3><div class="award-org">Cleveland State University</div><div class="award-year">2025</div><p class="award-desc">Recognition for academic performance, leadership, and service.</p></div><div class="glass-card award-card reveal"><span class="award-badge">Research</span><h3>Excellent Doctoral Research Award</h3><div class="award-org">Cleveland State University</div><div class="award-year">2024</div><p class="award-desc">Recognition for doctoral research in engineering and natural sciences.</p></div><div class="glass-card award-card reveal"><span class="award-badge">Leadership</span><h3>Graduate Student Leadership Award</h3><div class="award-org">Cleveland State University</div><div class="award-year">2025 & 2023</div><p class="award-desc">Leadership and support of graduate engineering student communities.</p></div><div class="glass-card award-card reveal"><span class="award-badge">Teaching</span><h3>Outstanding Teaching Assistant Award</h3><div class="award-org">Mechanical Engineering Department</div><div class="award-year">2024</div><p class="award-desc">Recognition for effective teaching and student support.</p></div><div class="glass-card award-card reveal"><span class="award-badge">Leadership</span><h3>ASM Student Chapter President</h3><div class="award-org">ASM International Student Chapter</div><div class="award-year">CSU</div><p class="award-desc">Organized technical events and student-industry academic engagement.</p></div><div class="glass-card award-card reveal"><span class="award-badge">Research</span><h3>Oak Ridge National Laboratory Internship</h3><div class="award-org">ORNL</div><div class="award-year">2025</div><p class="award-desc">National-lab experience in additive manufacturing and metallurgy.</p></div></div></div></section>
+<section id="contact"><div class="container contact-grid"><div class="reveal-left"><div class="kicker">Contact</div><h2 class="section-title">Let’s discuss additive manufacturing, DfAM, CAM/CNC, and materials validation.</h2><p class="section-subtitle" style="margin-bottom: 20px;">I am open to conversations with hiring managers, AM and materials teams, advanced manufacturing groups, national labs, and collaborators working on practical engineering problems.</p><div class="glass-card contact-info-card"><a class="contact-link" href="mailto:amitchoudhari.r@gmail.com"><span class="contact-link-icon">✉</span><div class="contact-link-text"><span>Email</span><strong>amitchoudhari.r@gmail.com</strong></div></a><a class="contact-link" href="tel:+12169541410"><span class="contact-link-icon">☎</span><div class="contact-link-text"><span>Phone</span><strong>+1 216 954 1410</strong></div></a><a class="contact-link" href="https://www.linkedin.com/in/amitchoudhari-/" target="_blank" rel="noopener"><span class="contact-link-icon">in</span><div class="contact-link-text"><span>LinkedIn</span><strong>linkedin.com/in/amitchoudhari-</strong></div></a><a class="contact-link" href="https://scholar.google.com/citations?hl=en&user=RLpNL1EAAAAJ" target="_blank" rel="noopener"><span class="contact-link-icon">G</span><div class="contact-link-text"><span>Google Scholar</span><strong>Publications & citations</strong></div></a></div></div><div class="glass-card contact-form-card reveal-right"><form id="contactForm"><div class="form-group"><input type="text" id="formName" required placeholder=" "><label for="formName">Full Name</label></div><div class="form-group"><input type="email" id="formEmail" required placeholder=" "><label for="formEmail">Email Address</label></div><div class="form-group"><input type="text" id="formSubject" required placeholder=" "><label for="formSubject">Subject</label></div><div class="form-group"><textarea id="formMessage" required placeholder=" "></textarea><label for="formMessage">Message</label></div><button type="submit" class="btn-send">Send Message</button></form></div></div></section>
+
+
+
+<div class="modal-overlay" id="m2ModalOverlay" aria-hidden="true" role="dialog" aria-labelledby="m2ModalTitle">
+  <div class="modal-wrapper">
+    <button class="modal-close" data-modal-close aria-label="Close case study">&times;</button>
+    <div class="modal-content">
+      <header>
+        <div class="modal-kicker">Detailed Case Study</div>
+        <h2 id="m2ModalTitle" class="modal-title">AISI M2 Tool Steel Across Metal AM: Process Development, Defect Mitigation, and HIP Validation</h2>
+        <p class="modal-subtitle">A thesis-level case study on developing AM process routes for AISI M2 high-speed tool steel across Binder Jetting, L-PBF, and DED, with the deepest work focused on Binder Jetting defect root-cause analysis, sintering/HIP densification, and performance validation.</p>
+      </header>
+
+      <div class="modal-grid">
+        <div class="modal-main">
+          <section class="modal-sec">
+            <h3>Case Study Overview</h3>
+            <p>This project summarizes my M2 high-speed tool steel work across metal additive manufacturing routes. The deepest part focused on Binder Jetting, where I developed process parameters from scratch, documented more than 25 defect types, performed root-cause analysis, and created mitigation strategies. I also evaluated sintering and HIP as post-processing routes to improve densification and understand microstructure–property changes.</p>
+            <p>Additional process-development work was performed for L-PBF and DED to compare how the same tool steel responds under different AM thermal histories, including powder–binder interaction in BJ, melt-pool behavior in L-PBF, and bead / thermal-history control in DED.</p>
+          </section>
+
+          <section class="modal-sec">
+            <h3>1. Binder Jetting Process Development</h3>
+            <ul>
+              <li>Developed Binder Jetting printing parameters for AISI M2 high-speed tool steel from scratch.</li>
+              <li>Studied binder saturation, binder set time, drying time, bed temperature, oscillator speed, recoater speed, roller speed, and powder behavior.</li>
+              <li>Created and documented more than 25 defect types during early process-development trials.</li>
+              <li>Performed root-cause analysis for defects related to powder flowability, binder–powder interaction, recoating, smearing, weak bonding, layer instability, cracking, shrinkage, and post-processing response.</li>
+              <li>Developed mitigation strategies to improve green-part quality, print consistency, and post-sintering outcomes.</li>
+            </ul>
+          </section>
+
+          <section class="modal-sec">
+            <h3>2. Post-Processing: Sintering + HIP</h3>
+            <p>HIP was an important post-processing step because Binder Jetting commonly leaves residual porosity after sintering. In this work, HIP was used to study pore closure, densification, hardness/property changes, and carbide/microstructure evolution. Comparing as-sintered and HIP-treated conditions helped separate the effect of printing/sintering from pressure-assisted densification.</p>
+            <ul>
+              <li>Evaluated sintering temperature, time, and cooling condition effects.</li>
+              <li>Compared as-sintered and HIP-processed material response.</li>
+              <li>Connected densification and pore closure to hardness, compression response, and microstructure.</li>
+            </ul>
+          </section>
+
+          <section class="modal-sec">
+            <h3>3. L-PBF and DED Process Development</h3>
+            <ul>
+              <li>Developed process parameters for M2 tool steel by L-PBF / SLM, focusing on process window, defect response, density, hardness, and thermal-history effects.</li>
+              <li>Developed DED printing parameters for M2 tool steel, focusing on energy input, bead/deposition response, porosity, density, microstructure, and hardness.</li>
+              <li>Compared how M2 behaves under fundamentally different AM mechanisms: binder-assisted sintering, laser powder-bed melting, and directed deposition.</li>
+            </ul>
+          </section>
+
+          <section class="modal-sec">
+            <h3>4. Validation and Publications</h3>
+            <p>The M2 work was validated using density, porosity, SEM/EDS, EBSD, XRD, hardness, compression testing, tribology, and image-based carbide quantification. The thesis work produced three published papers covering process development and mechanical behavior, defect remediation and carbide quantification, and wear/tribology.</p>
+            <div class="paper-grid">
+              <div class="paper-card"><strong>Paper 1 — Process + Mechanical Properties</strong><span>BJ parameters, sintering conditions, microstructure, density, hardness, and compression behavior.</span></div>
+              <div class="paper-card"><strong>Paper 2 — Defect Remediation + Carbides</strong><span>Defect identification, root-cause analysis, mitigation strategies, shrinkage, and image-based carbide quantification.</span></div>
+              <div class="paper-card"><strong>Paper 3 — Wear + Tribology</strong><span>Effect of sintering/cooling on friction, wear volume loss, carbide distribution, and wear mechanisms.</span></div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="modal-sidebar">
+          <div class="modal-sidebar-card">
+            <h3>Representative Results</h3>
+            <div class="modal-metrics">
+              <div class="modal-metric-card"><strong>From scratch</strong><span>BJ process parameter development for AISI M2</span></div>
+              <div class="modal-metric-card"><strong>25+ defects</strong><span>Documented and analyzed during process development</span></div>
+              <div class="modal-metric-card"><strong>BJ + L-PBF + DED</strong><span>Three metal AM routes studied for M2</span></div>
+              <div class="modal-metric-card"><strong>Sintering + HIP</strong><span>Post-processing and densification route</span></div>
+              <div class="modal-metric-card"><strong>3 papers</strong><span>Process/mechanical, defect/carbide, wear/tribology</span></div>
+              <div class="modal-metric-card"><strong>Transferable</strong><span>Framework for difficult tool steels and high-alloy powders</span></div>
+            </div>
+          </div>
+
+          <div class="modal-sidebar-card">
+            <h3>STAR Summary</h3>
+            <div class="modal-star-grid">
+              <div class="star-item"><strong>Situation</strong><span>AISI M2 is valuable for tooling but difficult to process consistently by metal AM.</span></div>
+              <div class="star-item"><strong>Task</strong><span>Develop AM process routes, understand defects, use HIP/post-processing, and validate properties.</span></div>
+              <div class="star-item"><strong>Action</strong><span>Used repeated trials, defect libraries, root-cause analysis, BJ/L-PBF/DED parameter development, sintering/HIP, SEM/EDS, EBSD, XRD, hardness, compression, and tribology.</span></div>
+              <div class="star-item"><strong>Result</strong><span>Built a documented process-development framework for M2 tool steel across metal AM routes.</span></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="modal-sec">
+        <h3>Visual Evidence & Characterization</h3>
+        <div class="modal-gallery">
+          <div class="gallery-slot"><img src="assets/m2-defect-photos.png" alt="Defect photo collage"><div class="gallery-info"><h4>Representative Defect Photos</h4><p>Photo collage showing slate cliff face, bulging, parting off, weak binding, loose powder, and layer shift defects observed during Binder Jetting process development.</p></div></div>
+          <div class="gallery-slot"><img src="assets/m2-defect-root-cause.png" alt="Root cause map"><div class="gallery-info"><h4>Defect Root-Cause Map</h4><p>Defect type → influencing factors → remedies map used to communicate how process variables were linked to failure modes and mitigation strategies.</p></div></div>
+          <div class="gallery-slot"><img src="assets/m2-am-process-comparison.png" alt="BJ LPBF DED process comparison"><div class="gallery-info"><h4>BJ / L-PBF / DED Process Windows</h4><p>Combined figure showing Binder Jetting parameter table, L-PBF parameter-space observations, and DED energy-density map / sample response.</p></div></div>
+          <div class="gallery-slot"><img src="assets/m2-hip-workflow.jpg" alt="HIP workflow"><div class="gallery-info"><h4>Sintering + HIP Validation</h4><p>Workflow and representative results comparing as-sintered and HIP-treated conditions, including densification and compressive-property improvement.</p></div></div>
+          <div class="gallery-slot"><img src="assets/m2-microstructure-sems.png" alt="SEM microstructure grid"><div class="gallery-info"><h4>SEM / Carbide Microstructure</h4><p>Representative microstructure images showing porosity, M<sub>6</sub>C carbides, MC carbides, and the influence of sintering temperature and time.</p></div></div>
+          <div class="gallery-slot"><img src="assets/m2-wear-mechanism.jpg" alt="Wear mechanism workflow"><div class="gallery-info"><h4>Wear / Tribology Results</h4><p>Wear testing workflow and wear-mechanism interpretation, including ball-on-disk testing and post-test characterization using optical, SEM, EDS, profilometry, and related tools.</p></div></div>
+        </div>
+        <div class="modal-actions">
+          <button class="btn" data-modal-close>Back to Projects</button>
+          <button class="btn btn-primary" data-contact-scroll>Discuss This Project</button>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="coatingsModalOverlay" aria-hidden="true" role="dialog" aria-labelledby="coatingsModalTitle">
+  <div class="modal-wrapper">
+    <button class="modal-close" data-modal-close aria-label="Close case study">&times;</button>
+    <div class="modal-content">
+      <header>
+        <div class="modal-kicker">Detailed Case Study</div>
+        <h2 id="coatingsModalTitle" class="modal-title">High-Temperature Protective Coatings for Oxidation and Decarburization Control</h2>
+        <p class="modal-subtitle">A manufacturing-focused case study on evaluating protective coatings for reducing oxidation and decarburization in steels during high-temperature processing.</p>
+      </header>
+
+      <div class="modal-grid">
+        <div class="modal-main">
+          <section class="modal-sec">
+            <h3>Case Study Overview</h3>
+            <p>This case study is centered on a practical industrial problem: steel components exposed to high-temperature processing can suffer oxidation, scale formation, carbon loss, and surface degradation. These effects reduce surface integrity and can compromise downstream manufacturing quality.</p>
+            <p>My work evaluated protective coatings as a manufacturing solution for reducing oxidation and decarburization. The value of this project is that it connects materials engineering directly to furnace processing, steel quality, and industrial reliability.</p>
+          </section>
+
+          <section class="modal-sec">
+            <h3>What I Did</h3>
+            <ul>
+              <li>Evaluated protective coatings for reducing high-temperature oxidation of steels.</li>
+              <li>Compared coated and uncoated conditions under heat-treatment / furnace-processing exposure.</li>
+              <li>Studied the effectiveness of coatings for reducing decarburization and preserving the near-surface region.</li>
+              <li>Connected the results to process reliability, surface quality, and practical manufacturing benefits.</li>
+            </ul>
+          </section>
+
+          <section class="modal-sec">
+            <h3>Engineering Importance</h3>
+            <ul>
+              <li>Oxidation and decarburization control are important for heat treatment, forging, and steel manufacturing.</li>
+              <li>Effective coatings can reduce material loss, preserve surface chemistry, and improve process consistency.</li>
+              <li>This project demonstrates the ability to compare solutions for a real manufacturing-quality problem rather than only reporting academic data.</li>
+            </ul>
+          </section>
+
+          <section class="modal-sec">
+            <h3>Publications Behind This Work</h3>
+            <div class="paper-grid">
+              <div class="paper-card"><strong>Investigation of Protective Coatings for Reducing High-Temperature Oxidation of Steels</strong><span>JOM, 2025</span></div>
+              <div class="paper-card"><strong>Evaluation and Comparison of High-Temperature Coatings for Decarburization Prevention in Low-Alloy Steels</strong><span>JOM, 2026</span></div>
+              <div class="paper-card"><strong>Industrial relevance</strong><span>Surface integrity, furnace processing, steel quality, and manufacturing cost reduction.</span></div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="modal-sidebar">
+          <div class="modal-sidebar-card">
+            <h3>Representative Value</h3>
+            <div class="modal-metrics">
+              <div class="modal-metric-card"><strong>2 papers</strong><span>Oxidation and decarburization-focused studies</span></div>
+              <div class="modal-metric-card"><strong>Coated vs uncoated</strong><span>Direct manufacturing comparison</span></div>
+              <div class="modal-metric-card"><strong>Heat treatment</strong><span>High-temperature steel processing context</span></div>
+              <div class="modal-metric-card"><strong>Surface integrity</strong><span>Quality-focused outcome</span></div>
+            </div>
+          </div>
+
+          <div class="modal-sidebar-card">
+            <h3>STAR Summary</h3>
+            <div class="modal-star-grid">
+              <div class="star-item"><strong>Situation</strong><span>High-temperature steel processing can create oxidation, scale, and carbon-loss problems.</span></div>
+              <div class="star-item"><strong>Task</strong><span>Evaluate whether protective coatings reduce oxidation and decarburization.</span></div>
+              <div class="star-item"><strong>Action</strong><span>Compared coated and uncoated samples and analyzed their post-processing response.</span></div>
+              <div class="star-item"><strong>Result</strong><span>Built an evidence-based case for coating selection in steel manufacturing workflows.</span></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="modal-sec">
+        <h3>Figure Slots for Next Update</h3>
+        <div class="modal-gallery">
+          <div class="gallery-slot"><img src="assets/coating-samples.png" alt="Coated sample placeholder"><div class="gallery-info"><h4>Sample Photos</h4><p>Replace with coated and uncoated sample photographs before and after heating.</p></div></div>
+          <div class="gallery-slot"><img src="assets/coating-process-flow.jpg" alt="Process flow placeholder"><div class="gallery-info"><h4>Experiment Workflow</h4><p>Replace with furnace / coating / testing workflow summary figure.</p></div></div>
+          <div class="gallery-slot"><img src="assets/coating-oxidation.webp" alt="Oxidation placeholder"><div class="gallery-info"><h4>Oxidation Reduction</h4><p>Replace with oxidation scale or weight-gain comparison figure.</p></div></div>
+          <div class="gallery-slot"><img src="assets/coating-decarb.jpg" alt="Decarburization placeholder"><div class="gallery-info"><h4>Decarburization Depth</h4><p>Replace with decarburization depth comparison.</p></div></div>
+          <div class="gallery-slot"><img src="assets/coating-cross-section.jpg" alt="Cross section placeholder"><div class="gallery-info"><h4>Cross-Section / Microstructure</h4><p>Replace with optical or SEM cross-sectional image.</p></div></div>
+          <div class="gallery-slot"><img src="assets/coating-results.jpg" alt="Results placeholder"><div class="gallery-info"><h4>Performance Summary</h4><p>Replace with bar chart or table summarizing coating performance.</p></div></div>
+        </div>
+        <div class="modal-actions">
+          <button class="btn" data-modal-close>Back to Projects</button>
+          <button class="btn btn-primary" data-contact-scroll>Discuss This Project</button>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="forcesModalOverlay" aria-hidden="true" role="dialog" aria-labelledby="forcesModalTitle">
+  <div class="modal-wrapper">
+    <button class="modal-close" data-modal-close aria-label="Close case study">&times;</button>
+    <div class="modal-content">
+      <header>
+        <div class="modal-kicker">Detailed Case Study</div>
+        <h2 id="forcesModalTitle" class="modal-title">Cutting Force Analysis of Straight-Flute and Helical-Flute End Mills</h2>
+        <p class="modal-subtitle">A manufacturing and machining case study on comparing straight-flute and helical-flute end mills through cutting-force measurements in 6061 and 7075 aluminum.</p>
+      </header>
+
+      <div class="modal-grid">
+        <div class="modal-main">
+          <section class="modal-sec">
+            <h3>Case Study Overview</h3>
+            <p>This work focuses on understanding how tool geometry influences machining-force behavior. Straight-flute and helical-flute end mills were compared to understand differences in cutting-force response, process stability, and their implications for machining performance.</p>
+            <p>This case study also connects well with my current ACE training work because it reflects CAM/CNC thinking, toolpath awareness, machining education, and the ability to explain manufacturing behavior using measured data.</p>
+          </section>
+
+          <section class="modal-sec">
+            <h3>What I Did</h3>
+            <ul>
+              <li>Compared straight-flute and helical-flute end mills in 6061 and 7075 aluminum.</li>
+              <li>Used a dynamometer-based setup to measure cutting-force signals during machining.</li>
+              <li>Analyzed force trends and connected them to tool geometry, material behavior, and machining conditions.</li>
+              <li>Built a process-focused explanation that is useful for tool selection, machining education, and CAM/CNC training.</li>
+            </ul>
+          </section>
+
+          <section class="modal-sec">
+            <h3>Engineering Importance</h3>
+            <ul>
+              <li>Tool geometry influences cutting load, vibration tendency, surface finish, and process stability.</li>
+              <li>Force analysis improves process planning and helps explain why one tool design may behave differently from another.</li>
+              <li>This work shows the connection between experimental machining data and practical manufacturing decisions.</li>
+            </ul>
+          </section>
+
+          <section class="modal-sec">
+            <h3>Manufacturing Relevance</h3>
+            <div class="paper-grid">
+              <div class="paper-card"><strong>Materials</strong><span>Aluminum 6061 and 7075</span></div>
+              <div class="paper-card"><strong>Method</strong><span>Dynamometer-based cutting-force analysis</span></div>
+              <div class="paper-card"><strong>Industrial value</strong><span>Tool selection, process planning, machining education, CAM/CNC workflow understanding</span></div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="modal-sidebar">
+          <div class="modal-sidebar-card">
+            <h3>Representative Value</h3>
+            <div class="modal-metrics">
+              <div class="modal-metric-card"><strong>2 alloys</strong><span>6061 and 7075 aluminum</span></div>
+              <div class="modal-metric-card"><strong>2 tool types</strong><span>Straight-flute vs helical-flute</span></div>
+              <div class="modal-metric-card"><strong>Force data</strong><span>Dynamometer-based measurement</span></div>
+              <div class="modal-metric-card"><strong>CAM/CNC link</strong><span>Useful for manufacturing training</span></div>
+            </div>
+          </div>
+
+          <div class="modal-sidebar-card">
+            <h3>STAR Summary</h3>
+            <div class="modal-star-grid">
+              <div class="star-item"><strong>Situation</strong><span>Tool geometry changes machining force behavior and process response.</span></div>
+              <div class="star-item"><strong>Task</strong><span>Compare straight- and helical-flute tools using cutting-force data.</span></div>
+              <div class="star-item"><strong>Action</strong><span>Measured and interpreted force signals, then linked them to geometry and machining conditions.</span></div>
+              <div class="star-item"><strong>Result</strong><span>Built a manufacturing-focused explanation useful for engineers, students, and machining-process planning.</span></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section class="modal-sec">
+        <h3>Figure Slots for Next Update</h3>
+        <div class="modal-gallery">
+          <div class="gallery-slot"><img src="assets/force-setup.jpg" alt="Experimental setup placeholder"><div class="gallery-info"><h4>Experimental Setup</h4><p>Replace with machine, dynamometer, workpiece, and tool setup image.</p></div></div>
+          <div class="gallery-slot"><img src="assets/force-geometry.jpg" alt="Tool geometry placeholder"><div class="gallery-info"><h4>Tool Geometry</h4><p>Replace with straight-flute and helical-flute end mill image or schematic.</p></div></div>
+          <div class="gallery-slot"><img src="assets/force-signal.jpg" alt="Force signal placeholder"><div class="gallery-info"><h4>Force Signals</h4><p>Replace with representative Fx, Fy, and Fz plots.</p></div></div>
+          <div class="gallery-slot"><img src="assets/force-comparison.jpg" alt="Comparison placeholder"><div class="gallery-info"><h4>Straight vs Helical Comparison</h4><p>Replace with comparison chart showing average or peak force values.</p></div></div>
+          <div class="gallery-slot"><img src="assets/force-toolpath.jpg" alt="Toolpath placeholder"><div class="gallery-info"><h4>CAM / Toolpath Context</h4><p>Replace with Fusion or Mastercam toolpath screenshot.</p></div></div>
+          <div class="gallery-slot"><img src="assets/force-summary.jpg" alt="Results summary placeholder"><div class="gallery-info"><h4>Results Summary</h4><p>Replace with final bar chart, table, or process summary figure.</p></div></div>
+        </div>
+        <div class="modal-actions">
+          <button class="btn" data-modal-close>Back to Projects</button>
+          <button class="btn btn-primary" data-contact-scroll>Discuss This Project</button>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+</main><footer class="footer"><div class="footer-inner"><span>© <span id="year"></span> Amit Choudhari. Advanced manufacturing portfolio.</span><span>Designing, printing, machining, and validating materials for real manufacturing.</span></div></footer>
+<script>
+const navLinks=document.querySelectorAll('.nav-links a'),sections=[...document.querySelectorAll('main section[id]')],menuToggle=document.getElementById('menuToggle'),navMenu=document.getElementById('navLinks'),progress=document.getElementById('scrollProgress');document.getElementById('year').textContent=new Date().getFullYear();menuToggle.addEventListener('click',()=>navMenu.classList.toggle('open'));navLinks.forEach(l=>l.addEventListener('click',()=>navMenu.classList.remove('open')));
+const revealObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');revealObserver.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>revealObserver.observe(el));
+const navObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){navLinks.forEach(l=>l.classList.toggle('active',l.getAttribute('href')===`#${e.target.id}`))}})},{rootMargin:'-35% 0px -55% 0px'});sections.forEach(s=>navObserver.observe(s));function scrollProgress(){const h=document.documentElement;progress.style.width=Math.max(0,Math.min(100,h.scrollTop/(h.scrollHeight-h.clientHeight)*100))+'%'}document.addEventListener('scroll',scrollProgress,{passive:true});scrollProgress();
+const metricObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,target=parseInt(el.dataset.count,10),plus=[7,300,415,2500,1000].includes(target),start=performance.now(),duration=1450;function update(now){const p=Math.min((now-start)/duration,1),v=Math.floor(target*(1-Math.pow(1-p,3)));el.textContent=v.toLocaleString()+(plus?'+':'');if(p<1)requestAnimationFrame(update)}requestAnimationFrame(update);metricObserver.unobserve(el)})},{threshold:.4});document.querySelectorAll('.stat-number').forEach(el=>metricObserver.observe(el));
+
+const modalPairs=[['projectM2Card','m2ModalOverlay'],['projectCoatingsCard','coatingsModalOverlay'],['projectForcesCard','forcesModalOverlay']];
+function openPortfolioModal(overlay){overlay.classList.add('open');overlay.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}
+function closePortfolioModal(overlay){overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow=''}
+modalPairs.forEach(([cardId,overlayId])=>{
+  const card=document.getElementById(cardId);
+  const overlay=document.getElementById(overlayId);
+  if(card&&overlay){card.addEventListener('click',()=>openPortfolioModal(overlay));}
+});
+document.querySelectorAll('.modal-overlay').forEach(overlay=>{
+  overlay.addEventListener('click',e=>{if(e.target===overlay)closePortfolioModal(overlay)});
+  overlay.querySelectorAll('[data-modal-close]').forEach(btn=>btn.addEventListener('click',()=>closePortfolioModal(overlay)));
+  overlay.querySelectorAll('[data-contact-scroll]').forEach(btn=>btn.addEventListener('click',()=>{
+    closePortfolioModal(overlay);
+    setTimeout(()=>document.getElementById('contact').scrollIntoView({behavior:'smooth'}),120);
+  }));
+});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){
+    document.querySelectorAll('.modal-overlay.open').forEach(overlay=>closePortfolioModal(overlay));
+  }
+});
+
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('formName').value.trim(),email=document.getElementById('formEmail').value.trim(),subject=encodeURIComponent(document.getElementById('formSubject').value.trim()),message=document.getElementById('formMessage').value.trim();const body=encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);window.location.href=`mailto:amitchoudhari.r@gmail.com?subject=${subject}&body=${body}`});
+</script></body></html>
